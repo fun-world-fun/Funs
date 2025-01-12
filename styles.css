@@ -1,0 +1,85 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbea;
+    color: #333;
+}
+
+header {
+    background: #ffc107;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #ffc107;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для ссылок */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Таблица привилегий и кейсов */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+/* Цвета привилегий */
+.barony td { background-color: #00bfff; }
+.guard td { background-color: #adff2f; }
+.hero td { background-color: #7fff00; }
+.aspid td { background-color: #4682b4; }
+.squid td { background-color: #87ceeb; }
+.chief td { background-color: #ffa500; }
+.elite td { background-color: #9932cc; }
+.titan td { background-color: #ff4500; }
+.prince td { background-color: #dc143c; }
+.duke td { background-color: #8b0000; }
+
+/* Цвета кейсов */
+.armor-case td { background-color: #87cefa; } /* Голубой */
+.donate-case td { background-color: #f0e68c; } /* Бледно-желтый */
+.guns-case td { background-color: #ffa07a; } /* Лососевый */
+.inst-case td { background-color: #e0ffff; } /* Светло-голубой */
+.books-case td { background-color: #90ee90; } /* Светло-зеленый */
+.money-case td { background-color: #ffdab9; } /* Персиковый */
+.resources-case td { background-color: #d3d3d3; } /* Светло-серый */
+.fun-case td { background-color: #ffd700; } /* Золотой */
