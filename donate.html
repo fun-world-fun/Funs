@@ -18,108 +18,48 @@
         <p>Выберите привилегии или кейсы, которые хотите приобрести:</p>
         <form id="donation-form">
             <h2>Привилегии</h2>
-            <div class="donation-cards">
-                <div class="card">
-                    <h3>Барон</h3>
-                    <p>29₽</p>
-                    <input type="number" name="baron" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Страж</h3>
-                    <p>59₽</p>
-                    <input type="number" name="guard" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Герой</h3>
-                    <p>129₽</p>
-                    <input type="number" name="hero" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Аспид</h3>
-                    <p>219₽</p>
-                    <input type="number" name="aspid" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Сквид</h3>
-                    <p>399₽</p>
-                    <input type="number" name="squid" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Глава</h3>
-                    <p>599₽</p>
-                    <input type="number" name="chief" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Элита</h3>
-                    <p>899₽</p>
-                    <input type="number" name="elite" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Титан</h3>
-                    <p>1399₽</p>
-                    <input type="number" name="titan" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Принц</h3>
-                    <p>1899₽</p>
-                    <input type="number" name="prince" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Князь</h3>
-                    <p>2299₽</p>
-                    <input type="number" name="duke" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Герцог</h3>
-                    <p>2999₽</p>
-                    <input type="number" name="duchess" value="0" min="0">
-                </div>
-            </div>
-
+            <table>
+                <thead>
+                    <tr>
+                        <th>Привилегия</th>
+                        <th>Стоимость (₽)</th>
+                        <th>Количество</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="barony"><td>Барон</td><td>29</td><td><input type="number" name="baron" value="0" min="0"></td></tr>
+                    <tr class="guard"><td>Страж</td><td>59</td><td><input type="number" name="guard" value="0" min="0"></td></tr>
+                    <tr class="hero"><td>Герой</td><td>129</td><td><input type="number" name="hero" value="0" min="0"></td></tr>
+                    <tr class="aspid"><td>Аспид</td><td>219</td><td><input type="number" name="aspid" value="0" min="0"></td></tr>
+                    <tr class="squid"><td>Сквид</td><td>399</td><td><input type="number" name="squid" value="0" min="0"></td></tr>
+                    <tr class="chief"><td>Глава</td><td>599</td><td><input type="number" name="chief" value="0" min="0"></td></tr>
+                    <tr class="elite"><td>Элита</td><td>899</td><td><input type="number" name="elite" value="0" min="0"></td></tr>
+                    <tr class="titan"><td>Титан</td><td>1399</td><td><input type="number" name="titan" value="0" min="0"></td></tr>
+                    <tr class="prince"><td>Принц</td><td>1899</td><td><input type="number" name="prince" value="0" min="0"></td></tr>
+                    <tr class="duke"><td>Князь</td><td>2299</td><td><input type="number" name="duke" value="0" min="0"></td></tr>
+                    <tr class="duchess"><td>Герцог</td><td>2999</td><td><input type="number" name="duchess" value="0" min="0"></td></tr>
+                </tbody>
+            </table>
             <h2>Кейсы</h2>
-            <div class="donation-cards">
-                <div class="card">
-                    <h3>Кейс Броня</h3>
-                    <p>10₽</p>
-                    <input type="number" name="armor" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Кейс Донат</h3>
-                    <p>150₽</p>
-                    <input type="number" name="donation" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Кейс Ганс</h3>
-                    <p>10₽</p>
-                    <input type="number" name="guns" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Кейс Инст</h3>
-                    <p>10₽</p>
-                    <input type="number" name="inst" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Кейс Книги</h3>
-                    <p>10₽</p>
-                    <input type="number" name="books" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Кейс Моней</h3>
-                    <p>10₽</p>
-                    <input type="number" name="money" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Кейс Ресурсы</h3>
-                    <p>10₽</p>
-                    <input type="number" name="resources" value="0" min="0">
-                </div>
-                <div class="card">
-                    <h3>Кейс Фанов</h3>
-                    <p>20₽</p>
-                    <input type="number" name="token" value="0" min="0">
-                </div>
-            </div>
-
+            <table>
+                <thead>
+                    <tr>
+                        <th>Кейс</th>
+                        <th>Стоимость (₽)</th>
+                        <th>Количество</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="armor-case"><td>Кейс Броня</td><td>10</td><td><input type="number" name="armor" value="0" min="0"></td></tr>
+                    <tr class="donate-case"><td>Кейс Донат</td><td>150</td><td><input type="number" name="donation" value="0" min="0"></td></tr>
+                    <tr class="guns-case"><td>Кейс Ганс</td><td>10</td><td><input type="number" name="guns" value="0" min="0"></td></tr>
+                    <tr class="inst-case"><td>Кейс Инст</td><td>10</td><td><input type="number" name="inst" value="0" min="0"></td></tr>
+                    <tr class="books-case"><td>Кейс Книги</td><td>10</td><td><input type="number" name="books" value="0" min="0"></td></tr>
+                    <tr class="money-case"><td>Кейс Моней</td><td>10</td><td><input type="number" name="money" value="0" min="0"></td></tr>
+                    <tr class="resources-case"><td>Кейс Ресурсы</td><td>10</td><td><input type="number" name="resources" value="0" min="0"></td></tr>
+                    <tr class="token-case"><td>Кейс Фанов</td><td>20</td><td><input type="number" name="token" value="0" min="0"></td></tr>
+                </tbody>
+            </table>
             <h2>Ваши данные:</h2>
             <input type="text" name="discord" placeholder="Ваш ник в Discord" required>
             <input type="text" name="minecraft" placeholder="Ваш ник в Minecraft" required>
@@ -140,7 +80,7 @@
             function calculateTotal() {
                 let total = 0;
                 inputs.forEach(input => {
-                    const price = parseInt(input.closest(".card").querySelector("p").innerText);
+                    const price = parseInt(input.closest("tr").children[1].innerText);
                     total += input.value * price;
                 });
                 totalPrice.innerText = total;
@@ -155,7 +95,7 @@
                 const items = [];
                 inputs.forEach(input => {
                     if (input.value > 0) {
-                        const name = input.closest(".card").querySelector("h3").innerText;
+                        const name = input.closest("tr").children[0].innerText;
                         items.push(`${name} x${input.value}`);
                     }
                 });
