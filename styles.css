@@ -77,7 +77,8 @@ table th {
 .elite td { background-color: #9932cc; }
 .titan td { background-color: #ff4500; }
 .prince td { background-color: #dc143c; }
-.duke td { background-color: #8b0000; }
+.duke td { background-color: #9c0000; }
+.duchess td { background-color: #8b0000; }
 
 /* Цвета кейсов */
 .armor-case td { background-color: #87cefa; } /* Голубой */
